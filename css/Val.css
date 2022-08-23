@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "NEON___";
+    src: url("../fonts/NEON.TTF");
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/*Navbar*/
+.navbarperso{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  border-radius: 0
+}
+
+.nav.navbar-nav .nom{
+  font-family: NEON___;
+  font-weight: 300;
+  color: #500;
+  text-shadow: 0 0 10px #fff;
+  font-size: 35px;
+  padding-right: 50px;
+}
+
+.nav.navbar-nav .neonRed a {
+  font-family: NEON___;
+  font-weight: 300;
+  color: #800;
+  font-size: 20px;
+  padding-right: 50px;
+}
+
+.neonRed:hover{
+  -webkit-animation: neonR 1.5s ease-in-out infinite alternate;
+  color: white;
+  -webkit-transition: color .15s ease-in;
+  -moz-transition: color .15s ease-in;
+  -o-transition: color .15s ease-in;
+  transition: color .15s ease-in;
+}
+
+@-webkit-keyframes neonR {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  red,
+               0 0 70px  red,
+               0 0 80px  red,
+               0 0 100px red,
+               0 0 150px red;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px red,
+               0 0 35px red,
+               0 0 40px red,
+               0 0 50px red,
+               0 0 75px red;
+  }
+}
+/*Fin Navbar*/
+
+.accueil{
+  width: 98.9vw;
+  height: 100vh;
+  background-image: url("../images/roller_derby.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro{
+  background-color: black;
+  top: 150px;
+  padding: 15px;
+}
+
+.logo{
+  padding: 5;
+}
+
+.texte{
+  color: #EFEFEF;
+  font-size: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.box{
+  background-color: black;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+h1, h4{
+  color : #800;
+  margin-left: 5px
+}
+
+#dinner{
+  background-image: url("../images/salle.jpg");
+  width: 98.9vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table{
+  color : #EFEFEF
+}
+
+.map{
+  background-image: url("../images/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  margin-left: 50  px;
+  height: 300px;
+}
+
+.footer{
+  height: 50px;
+  color: white;
+}
